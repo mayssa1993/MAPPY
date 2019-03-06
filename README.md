@@ -14,11 +14,14 @@ L'execution de ce prototype requiere l'installation de :
 ## Procedure d'installation 
 ```shell
 conda create -n yourenvname python=3.X anaconda --file path/to/yourfile/requirements.txt
+```
 
 ## Procedure d'execution :
+```shell
 conda activate yourenvname
 cd path/to/yourfile
 python test_mappy.py
+```
 
 
 
